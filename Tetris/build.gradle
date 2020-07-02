@@ -13,6 +13,7 @@ repositories {
 
 javafx {
     modules = ['javafx.controls', 'javafx.fxml']
+    
     version = '13.0.2'
 }
 
