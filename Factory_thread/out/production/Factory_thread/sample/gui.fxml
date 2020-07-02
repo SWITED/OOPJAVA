@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="574.0" prefWidth="761.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+  <children>
+      <GridPane prefHeight="522.0" prefWidth="761.0">
+        <columnConstraints>
+          <ColumnConstraints halignment="CENTER" maxWidth="374.20001220703125" minWidth="10.0" prefWidth="224.6" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="571.7999725341797" minWidth="10.0" prefWidth="533.4" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="50.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="50.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="50.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="50.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="50.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="50.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="50.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="50.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="50.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="50.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="50.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Details 1st type">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label text="Details 2th type" GridPane.rowIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label text="Details 3th type" GridPane.rowIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label text="Complete product" GridPane.rowIndex="3">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label text="Worker1" GridPane.rowIndex="4">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label text="Worker2" GridPane.rowIndex="5">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label text="Worker3" GridPane.rowIndex="6">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label text="Worker4" GridPane.rowIndex="7">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label text="Worker5" GridPane.rowIndex="8">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label text="Seller" GridPane.rowIndex="9">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label text="Quantity of product sold" GridPane.rowIndex="10">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+               <top>
+                  <ProgressBar fx:id="br1" prefHeight="25.0" prefWidth="500.0" progress="0.0" BorderPane.alignment="CENTER" />
+               </top>
+               <left>
+                  <Label id="zr1" fx:id="zr1" text="Label" BorderPane.alignment="CENTER" />
+               </left>
+               <right>
+                  <Label id="xx1" fx:id="mx1" text="Label" BorderPane.alignment="CENTER" />
+               </right>
+            </BorderPane>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <top>
+                  <ProgressBar fx:id="br2" prefHeight="25.0" prefWidth="500.0" progress="0.0" BorderPane.alignment="CENTER" />
+               </top>
+               <left>
+                  <Label id="zr2" fx:id="zr2" text="Label" BorderPane.alignment="CENTER" />
+               </left>
+               <right>
+                  <Label id="xx2" fx:id="mx2" text="Label" BorderPane.alignment="CENTER" />
+               </right>
+            </BorderPane>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <top>
+                  <ProgressBar fx:id="br3" prefHeight="25.0" prefWidth="500.0" progress="0.0" BorderPane.alignment="CENTER" />
+               </top>
+               <left>
+                  <Label id="zr3" fx:id="zr3" text="Label" BorderPane.alignment="CENTER" />
+               </left>
+               <right>
+                  <Label id="xx3" fx:id="mx3" text="Label" BorderPane.alignment="CENTER" />
+               </right>
+            </BorderPane>
+            <ProgressBar id="co" fx:id="br4" prefHeight="25.0" prefWidth="500.0" progress="0.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label fx:id="rr1" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Label fx:id="rr2" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Label fx:id="rr3" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Label fx:id="rr4" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <Label fx:id="rr5" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+            <Label fx:id="rr6" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+            <Label fx:id="ls" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+         </children>
+      </GridPane>
+  </children>
+   <padding>
+      <Insets top="20.0" />
+   </padding>
+</VBox>
